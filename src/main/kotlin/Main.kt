@@ -9,7 +9,7 @@ fun main() {
     print("Введите сумму перевода в копейках: ")
     val amount:Int = readLine()!!.toInt()
     println("""Сумма перевода: $amount коп.
-      Комиссия: ${printMyAmountСommission(cardType, amountPreviousTransfer, amount)} коп.
+      Комиссия: ${printMyСommission(cardType, amountPreviousTransfer, amount)} коп.
         """.trimMargin())
 }
 
@@ -18,7 +18,7 @@ fun checkMyReadLine(): Int {
     return if (myString.isEmpty()) 0 else myString.toInt()
 }
 
-fun printMyAmountСommission(cardType: Int, amountPreviousTransfer: Int, amount: Int):Int {
+fun printMyСommission(cardType: Int, amountPreviousTransfer: Int, amount: Int):Int {
     return when (cardType) {
         1 -> giveMyMasterCardMaestro(amountPreviousTransfer, amount)
         2 -> giveMyVisaMir(amount)
