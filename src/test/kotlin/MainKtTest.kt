@@ -5,7 +5,7 @@ internal class MainKtTest {
 
     @Test
     fun printMyAmountСommission_MasterMaestroTest():Unit {
-        val expected = 2017
+        val expected = 2018
         val cardType:Int = 1
         val amountPreviousTransfer:Int = 200
         val amount:Int = 3000
