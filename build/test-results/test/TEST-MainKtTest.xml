@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-18T18:26:22" hostname="CEMYA" time="0.02">
+<testsuite name="MainKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-20T09:26:08" hostname="CEMYA" time="0.077">
   <properties/>
-  <testcase name="giveMyVisaMir_testOutOfInterval" classname="MainKtTest" time="0.02"/>
+  <testcase name="printMyAmountСommission_VisaMirTest" classname="MainKtTest" time="0.077"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
